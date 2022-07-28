@@ -1,0 +1,76 @@
+.supportWrapper {
+    max-width: 800px;
+    background-color: #f1f1f1;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.supportWrapper .supportHeader {
+    background-color: #dbdbdb;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.supportWrapper .supportHeader .headerText {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000;
+    margin: 0;
+}
+
+.supportWrapper .supportHeader .subheaderText {
+    font-size: 16px;
+    color: #535353;
+    margin: 0;
+    margin-top: 7px;
+}
+
+.supportWrapper .supportContent {
+    padding: 20px;
+    padding-top: 0;
+}
+
+.supportWrapper .supportContent .subheaderText {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    margin: 0;
+}
+
+.supportWrapper .supportContent .message {
+    font-size: 18px;
+    color: #797979;
+    line-height: 30px;
+}
+
+.supportWrapper .supportContent .assign {
+    font-size: 18px;
+    color: #535353;
+
+}
+
+.supportWrapper .supportContent .assign span {
+    font-weight: 780;
+}
+
+.supportWrapper .supportContent .tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.supportWrapper .supportContent .tags .tag {
+    background-color: #508DE8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.supportWrapper .supportContent .tags .tag p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}

@@ -12,6 +12,7 @@
     top: auto;
     bottom: auto;
     max-width: 800px;
+    z-index: 2;
 }
 
 .heroWrapper .heroContent .content {
@@ -22,7 +23,7 @@
 }
 
 .heroWrapper .heroContent .header {
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 500;
     color: #fff;
     overflow-wrap: break-word;

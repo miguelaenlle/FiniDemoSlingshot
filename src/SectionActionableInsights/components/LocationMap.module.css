@@ -1,0 +1,64 @@
+.wrapper {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper .subheader {
+    font-size: 18px;
+    color: #797979;
+    margin: 0;
+}
+
+.wrapper .mapWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.wrapper .mapWrapper .point {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 9px;
+    background-color: #00A1E0;
+    z-index: 2;
+
+}
+
+.point.point1 {
+    top: 33%;
+    left: 27%;
+}
+.point.point2 {
+    top: 30%;
+    left: 23%;
+}
+.point.point3 {
+    bottom: 40%;
+    left: 30%;
+}
+
+.point.point4 {
+    top: 30%;
+    left: 50%;
+}
+.point.point5 {
+    top: 27%;
+    left: 43%;
+}
+
+.point.point6 {
+    top: 25%;
+    left: 47%;
+}
+
+.point.point7 {
+    top: 40%;
+    right: 25%;
+}
+.wrapper .map {
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
