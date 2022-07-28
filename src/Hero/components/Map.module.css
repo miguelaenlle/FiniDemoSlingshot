@@ -1,0 +1,8 @@
+.mapWrapper {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    right: 0px;
+    z-index: 1;
+
+}

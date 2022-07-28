@@ -1,0 +1,68 @@
+.heroWrapper {
+    width: auto;
+    height: 60vh;
+    padding: 7.5vw;
+    background: linear-gradient(to bottom, #222020, #141414);
+    background-size: cover;
+}
+
+
+.heroWrapper .heroContent {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    max-width: 800px;
+}
+
+.heroWrapper .heroContent .content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 10vh 0;
+}
+
+.heroWrapper .heroContent .header {
+    font-size: 64px;
+    font-weight: 500;
+    color: #fff;
+    overflow-wrap: break-word;
+}
+
+.heroWrapper .description {
+    font-size: 24px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.heroWrapper .ctaButton {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #508DE8;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.heroWrapper .ctaButton:hover {
+    cursor: pointer;
+    background-color: #1552ad;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.heroWrapper .ctaButton p {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.heroWrapper .ctaButton .clickIcon {
+    color: #fff;
+}
+
+.heroWrapper .logo {
+    height: 25px;
+}

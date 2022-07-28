@@ -1,0 +1,19 @@
+.section {
+    padding: 7.5vw;
+}
+
+.section h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.section p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #535353;
+}
+
+.section .content {
+    max-width: 600px;
+}
