@@ -1,0 +1,34 @@
+.section {
+    padding: 6rem 7.5vw;
+}
+
+.section h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+}
+
+.section p {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #535353;
+}
+
+.section .contentArea {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.section .content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 700px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 768px) {
+    .section .content {
+        flex-direction: column;
+    }
+}

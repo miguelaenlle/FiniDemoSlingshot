@@ -8,7 +8,7 @@
 
 .wrapper .issueReport {
     color: #000;
-    font-size: 24px;    
+    font-size: 24px;
 }
 
 .wrapper .content {
@@ -56,4 +56,10 @@
     font-weight: 500;
     font-size: 22px;
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper .content {
+        flex-direction: column;
+    }
 }

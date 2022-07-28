@@ -2,11 +2,10 @@ import styles from "./Testimonials.module.css"
 import * as React from "react"
 import Testimonial from "./Testimonial";
 import { testimonials } from "../constants/testimonials";
+import SectionWrapper from "../../shared/components/SectionWrapper";
 const Testimonials: React.FC<{}> = (props) => {
     return (
-        <section
-            className={styles.testimonials}
-        >
+        <SectionWrapper color="#f1f1f1">
             <h1>
                 See what our customers have to say
             </h1>
@@ -41,7 +40,7 @@ const Testimonials: React.FC<{}> = (props) => {
 
                 })}
             </div>
-        </section>
+        </SectionWrapper>
     );
 }
 export default Testimonials

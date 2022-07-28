@@ -3,15 +3,18 @@
     background: linear-gradient(to bottom, #222020, #141414);
 }
 
-.background h1 {
+.background .content {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.background .content h1 {
     color: #fff;
     font-weight: 500;
     max-width: 600px;
     line-height: 45px;
-
 }
 
-.background p {
+.background .content p {
     color: rgb(194, 194, 194);
-    margin-top: 10px;
 }

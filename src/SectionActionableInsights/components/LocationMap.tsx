@@ -22,6 +22,7 @@ const LocationMap: React.FC<{}> = (props) => {
 
                 {[...Array(7)].map((x, i) => {
                     return <motion.div
+                        key={`map-point-${i}-${Math.random().toString()}`}
                         animate={controls}
                         initial={"hidden"}
                         className={`${styles.point} ${styles[`point${i + 1}`]}`}

@@ -1,17 +1,18 @@
-.testimonials {
-    padding: 7.5vw;
-    background-color: #f1f1f1;
-}
-
-.testimonials h1 {
+h1 {
     font-size: 40px;
     font-weight: 500;
     max-width: 600px;
     margin-bottom: 35px;
 }
 
-.testimonials .testimonialRow {
+.testimonialRow {
     display: flex;
     gap: 20px;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonialRow {
+        flex-direction: column;
+    }
 }

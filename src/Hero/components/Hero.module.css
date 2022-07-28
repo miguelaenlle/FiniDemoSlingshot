@@ -1,25 +1,23 @@
 .heroWrapper {
     width: auto;
-    height: 60vh;
-    padding: 7.5vw;
+    padding: 15vh 7.5vw;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("./background-image.jpg");
     background-size: cover;
 }
 
 
 .heroWrapper .heroContent {
-    position: absolute;
-    top: auto;
-    bottom: auto;
-    max-width: 800px;
+    max-width: 1280px;
     z-index: 2;
+    margin: 0 auto;
 }
 
 .heroWrapper .heroContent .content {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin: 10vh 0;
+    margin-top: 10vh;
+    max-width: 800px;
 }
 
 .heroWrapper .heroContent .header {
@@ -37,4 +35,23 @@
 
 .heroWrapper .logo {
     height: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .heroWrapper .logo {
+        height: 20px;
+    }
+
+    .heroWrapper .heroContent .header {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .heroWrapper .heroContent .description {
+        font-size: 20px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
 }

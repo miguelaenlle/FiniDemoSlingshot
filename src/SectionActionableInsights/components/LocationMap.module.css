@@ -30,10 +30,12 @@
     top: 33%;
     left: 27%;
 }
+
 .point.point2 {
     top: 30%;
     left: 23%;
 }
+
 .point.point3 {
     bottom: 40%;
     left: 30%;
@@ -43,6 +45,7 @@
     top: 30%;
     left: 50%;
 }
+
 .point.point5 {
     top: 27%;
     left: 43%;
@@ -57,8 +60,16 @@
     top: 40%;
     right: 25%;
 }
+
 .wrapper .map {
     width: 100%;
     opacity: 0.5;
     z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper .mapWrapper .point {
+        width: 10px;
+        height: 10px;
+    }
 }

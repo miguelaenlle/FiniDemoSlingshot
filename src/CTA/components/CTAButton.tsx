@@ -22,10 +22,14 @@ const CTAButton: React.FC<{}> = (props) => {
                 <p>Get started</p>
                 <ChevronRight className={styles.clickIcon} />
             </div>
-            <br />
-            <br />
             {selected && (
-                <p className={styles.interest}>Thanks for your interest! Fini is currently in development, so please check in with us later!</p>
+                <React.Fragment>
+                    <p className={styles.interest}>Thanks for your interest! Fini is currently in development, so please check in with us later!</p>
+
+                    <br />
+                    <br />
+                </React.Fragment>
+
 
             )}
         </div>

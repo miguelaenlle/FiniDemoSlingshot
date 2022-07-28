@@ -1,9 +1,10 @@
 import styles from "./SectionAutomateSupport.module.css"
 import * as React from "react"
 import SupportTicket from "./SupportTicket";
+import SectionWrapper from "../../shared/components/SectionWrapper";
 const SectionAutomateSupport: React.FC<{}> = (props) => {
     return (
-        <section className={styles.section}>
+        <SectionWrapper color="#f1f1f1">
             <div className={styles.content}>
                 <h2>Automate repetitive support ticket tasks</h2>
                 <p>Supercharge your agents’ daily productivity by automating repetitive manual workloads. Tagging, routing, and forwarding tickets between systems is fully automated by Fini.</p>
@@ -18,7 +19,7 @@ const SectionAutomateSupport: React.FC<{}> = (props) => {
                 supportRep="Paul Graham"
                 occupation="Customer Support Specialist"
             />
-        </section>
+        </SectionWrapper>
     );
 }
 export default SectionAutomateSupport

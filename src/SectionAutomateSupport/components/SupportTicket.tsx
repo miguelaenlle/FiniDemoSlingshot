@@ -68,10 +68,10 @@ const SupportTicket: React.FC<{
                                         },
                                     }
                                 }}
-                                key={`word-${index}`}>{`${word}`}
+                                key={`word-${index}-${Math.random().toString()}`}>{`${word}`}
                             </motion.span>
                         } else {
-                            return <span className={styles.span} key={`word-${index}`}>{word} </span>
+                            return <span className={styles.span} key={`word-${index}-${Math.random().toString()}`}>{word} </span>
                         }
                     })}
                 </p>

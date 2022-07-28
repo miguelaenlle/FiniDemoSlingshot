@@ -19,8 +19,9 @@
 
 .ctaButton p {
     font-size: 20px;
-    color: #fff;
+    color: #fff !important;
     padding-right: 50px;
+    margin-top: 0;
 }
 
 .ctaButton .clickIcon {
@@ -29,5 +30,7 @@
 
 .interest {
     color: #fff;
+    font-size: 20px;
     transition: all 0.3s ease-in-out;
+    margin-top: 30px;
 }
