@@ -120,7 +120,7 @@ const SupportTicket: React.FC<{
                             },
                         }
                     }}
-                >Assigning to <span>{props.supportRep}</span>, {props.occupation}</motion.p>
+                >Creating support ticket for <span>{props.supportRep}</span>, {props.occupation}</motion.p>
             </div>
             <div ref={ref}></div>
 

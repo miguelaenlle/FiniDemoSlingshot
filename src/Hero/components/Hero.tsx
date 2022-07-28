@@ -1,6 +1,6 @@
-import styles from "./Hero.module.css"
-import * as React from "react"
-import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import * as React from "react";
+import CTAButton from "../../CTA/components/CTAButton";
+import styles from "./Hero.module.css";
 import Map from "./Map";
 
 const Hero: React.FC<{}> = (props) => {
@@ -11,13 +11,9 @@ const Hero: React.FC<{}> = (props) => {
                 <div className={styles.content}>
                     <h1 className={styles.header}>Resolve customer issues <u>10x</u> faster using AI</h1>
                     <p className={styles.description}>Fini is an AI driven solution to collect, analyze, route, and resolve your customer contacts across all your pre-existing channels</p>
-                    <button className={styles.ctaButton}>
-                        <p>Get Started</p>
-                        <ChevronRightIcon className={styles.clickIcon} />
-                    </button>
+                    <CTAButton />
                 </div>
             </div>
-            <Map />
         </div>
     );
 }

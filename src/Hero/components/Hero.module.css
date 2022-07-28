@@ -2,7 +2,7 @@
     width: auto;
     height: 60vh;
     padding: 7.5vw;
-    background: linear-gradient(to bottom, #222020, #141414);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("./background-image.jpg");
     background-size: cover;
 }
 
@@ -33,35 +33,6 @@
     font-size: 24px;
     color: #fff;
     margin-right: 30px;
-}
-
-.heroWrapper .ctaButton {
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #508DE8;
-    border-radius: 5px;
-    padding: 15px;
-    transition: background-color 0.1s ease-in-out;
-}
-
-
-.heroWrapper .ctaButton:hover {
-    cursor: pointer;
-    background-color: #1552ad;
-    transition: background-color 0.1s ease-in-out;
-}
-
-
-.heroWrapper .ctaButton p {
-    font-size: 20px;
-    color: #fff;
-    padding-right: 50px;
-}
-
-.heroWrapper .ctaButton .clickIcon {
-    color: #fff;
 }
 
 .heroWrapper .logo {

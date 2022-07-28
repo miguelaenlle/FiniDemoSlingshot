@@ -1,0 +1,33 @@
+.ctaButton {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #508DE8;
+    border-radius: 5px;
+    padding: 15px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.ctaButton:hover {
+    cursor: pointer;
+    background-color: #1552ad;
+    transition: background-color 0.1s ease-in-out;
+}
+
+
+.ctaButton p {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 50px;
+}
+
+.ctaButton .clickIcon {
+    color: #fff;
+}
+
+.interest {
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}

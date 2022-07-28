@@ -1,6 +1,7 @@
 import styles from "./Testimonials.module.css"
 import * as React from "react"
 import Testimonial from "./Testimonial";
+import { testimonials } from "../constants/testimonials";
 const Testimonials: React.FC<{}> = (props) => {
     return (
         <section
@@ -10,7 +11,36 @@ const Testimonials: React.FC<{}> = (props) => {
                 See what our customers have to say
             </h1>
             <br />
-            <Testimonial />
+            <div className={styles.testimonialRow}>
+                {testimonials.slice(0, 2).map((testimonial, index) => {
+                    return (
+                        <Testimonial
+                            key={`testimonial-${index}`}
+                            companyID={testimonial.companyID}
+                            content={testimonial.content}
+                            personID={testimonial.personID}
+                            personName={testimonial.personName}
+                            personTitle={testimonial.personTitle}
+                        />
+                    )
+
+                })}
+            </div>
+            <div className={styles.testimonialRow}>
+                {testimonials.slice(2, 4).map((testimonial, index) => {
+                    return (
+                        <Testimonial
+                            key={`testimonial-${index}`}
+                            companyID={testimonial.companyID}
+                            content={testimonial.content}
+                            personID={testimonial.personID}
+                            personName={testimonial.personName}
+                            personTitle={testimonial.personTitle}
+                        />
+                    )
+
+                })}
+            </div>
         </section>
     );
 }

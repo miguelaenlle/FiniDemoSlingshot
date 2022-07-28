@@ -11,9 +11,10 @@ const Testimonial: React.FC<{
         <div className={styles.testimonial}>
             <img src={`/assets/clientLogos/${props.companyID}.png`} className={styles.logo} />
             <br />
-            <p className={styles.text}>{props.content}</p>
+            <p className={styles.text}>"{props.content}"</p>
 
             <br />
+            <div className={styles.gap}></div>
             <div className={styles.personWrapper}>
                 <img src={`/assets/people/${props.personID}.jpg`} className={styles.person} />
                 <p>{props.personName}, {props.personTitle}</p>
