@@ -1,5 +1,4 @@
-## Slingshot Frontend Verification Test Submission
-#### Fini Landing Page
+## Slingshot Frontend Verification Test Submission: Fini Landing Page
 
 Demo Site: <a href="https://fini-demo.web.app/" target="_blank">Link</a>
 <br/>
