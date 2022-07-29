@@ -10,3 +10,9 @@
 .logoItem img {
     height: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .logoItem img {
+        height: 25px;
+    }
+}

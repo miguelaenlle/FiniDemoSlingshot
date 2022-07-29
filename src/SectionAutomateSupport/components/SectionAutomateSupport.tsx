@@ -11,12 +11,12 @@ const SectionAutomateSupport: React.FC<{}> = (props) => {
             </div>
             <br />
             <SupportTicket
-                user="Sam Altman"
+                user="Shakir Jaramillo"
                 source="Twitter"
                 datetime="Today at 5:21pm"
                 userMessage="Hello. I purchased a camera from your online store 2 weeks ago, and it suddenly stopped working . Can I return it to get a new camera ?"
                 tags={["Camera", "Stopped", "Working", "New"]}
-                supportRep="Paul Graham"
+                supportRep="Peyton Jacobs"
                 occupation="Customer Support Specialist"
             />
         </SectionWrapper>

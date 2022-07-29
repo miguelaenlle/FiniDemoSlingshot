@@ -18,3 +18,20 @@
 .background .content p {
     color: rgb(194, 194, 194);
 }
+
+@media screen and (max-width: 768px) {
+    .background {
+        padding: 15vh 7.5vw;
+    }
+
+    .background .content h1 {
+        font-size: 36px;
+    }
+
+
+    .background .content p {
+        font-size: 20px;
+        color: rgb(194, 194, 194);
+    }
+
+}

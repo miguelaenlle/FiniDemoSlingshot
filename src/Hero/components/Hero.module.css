@@ -38,6 +38,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .heroWrapper {
+        padding: 10vh 7.5vw;
+    }
+
     .heroWrapper .logo {
         height: 20px;
     }

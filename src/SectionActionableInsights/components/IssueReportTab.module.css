@@ -35,3 +35,19 @@
     font-size: 18px !important;
     color: #797979 !important;
 }
+
+@media screen and (max-width: 768px) {
+    .subheader {
+        font-size: 16px !important;
+    }
+
+    .dataRow .dataText {
+        font-size: 18px;
+    }
+    .dataRow .changeText {
+        font-size: 18px;
+    }
+    .dataRow .changeArrow {
+        height: 18px;
+    }
+}

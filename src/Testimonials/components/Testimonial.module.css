@@ -42,4 +42,26 @@
 
 .testimonial .personWrapper p {
     font-size: 18px;
+    color: #2e2e2e
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .testimonial .text {
+        margin-top: 5px;
+        font-size: 16px;
+    }
+
+
+    .testimonial .personWrapper .person {
+        width: 35px;
+        height: 35px;
+        min-width: 35px;
+        min-height: 35px;
+    }
+
+    .testimonial .personWrapper p {
+        font-size: 16px;
+    }
 }

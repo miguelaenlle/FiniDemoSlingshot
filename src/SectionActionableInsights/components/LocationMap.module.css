@@ -72,4 +72,8 @@
         width: 10px;
         height: 10px;
     }
+
+    .wrapper .subheader {
+        font-size: 16px;
+    }
 }

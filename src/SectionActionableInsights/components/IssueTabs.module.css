@@ -24,3 +24,25 @@
     font-weight: 500;
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .subheader {
+        font-size: 16px !important;
+    }
+
+    .tags .tag {
+        background-color: #508DE8;
+        border-radius: 3px;
+        padding: 5px 10px;
+    }
+
+    .tags .tag p {
+        font-size: 14px;
+    }
+
+
+    .tags {
+        margin-bottom: 20px;
+    }
+
+}

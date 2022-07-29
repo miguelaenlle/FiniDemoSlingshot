@@ -62,4 +62,8 @@
     .wrapper .content {
         flex-direction: column;
     }
+
+    .wrapper .issueReport {
+        font-size: 18px;
+    }
 }

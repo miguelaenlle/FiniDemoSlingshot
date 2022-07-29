@@ -3,7 +3,7 @@ import * as React from "react"
 
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
-
+import { useIsSmall, useMediaQuery } from "../../shared/helpers/use-media-query";
 
 const SupportTicket: React.FC<{
     user: string;
@@ -18,6 +18,7 @@ const SupportTicket: React.FC<{
 
 
     const controls = useAnimation();
+    const isSmall = useIsSmall();
     const [ref, inView] = useInView();
 
     React.useEffect(() => {
@@ -59,9 +60,9 @@ const SupportTicket: React.FC<{
                                         marginRight: "5px",
                                         paddingRight: "5px",
                                         paddingLeft: "5px",
-                                        paddingTop: "1px",
-                                        paddingBottom: "3px",
-                                        borderRadius: "5px",
+                                        paddingTop: isSmall ? "0px" : "1px",
+                                        paddingBottom: isSmall ? "2px" : "3px",
+                                        borderRadius: isSmall ? "3px" : "5px",
                                         transition: {
                                             duration: 0.25,
                                             delay: index * 0.5,
@@ -116,7 +117,7 @@ const SupportTicket: React.FC<{
                             opacity: 1,
                             transition: {
                                 duration: 0.25,
-                                delay: (props.tags.length*0.5)+0.5
+                                delay: (props.tags.length * 0.5) + 0.5
                             },
                         }
                     }}

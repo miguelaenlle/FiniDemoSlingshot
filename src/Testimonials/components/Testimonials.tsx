@@ -6,9 +6,9 @@ import SectionWrapper from "../../shared/components/SectionWrapper";
 const Testimonials: React.FC<{}> = (props) => {
     return (
         <SectionWrapper color="#f1f1f1">
-            <h1>
+            <h2>
                 See what our customers have to say
-            </h1>
+            </h2>
             <br />
             <div className={styles.testimonialRow}>
                 {testimonials.slice(0, 2).map((testimonial, index) => {

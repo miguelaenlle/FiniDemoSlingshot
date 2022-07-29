@@ -74,3 +74,37 @@
     font-weight: 500;
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .supportWrapper .supportHeader .headerText {
+        font-size: 18px;
+    }
+
+    .supportWrapper .supportContent .subheaderText {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    .supportWrapper .supportContent .message {
+        font-size: 14px;
+        line-height: 25px;
+        margin-top: 10px;
+    }
+
+    .supportWrapper .supportContent .tags .tag {
+        background-color: #508DE8;
+        border-radius: 3px;
+        padding: 5px 10px;
+    }
+
+    .supportWrapper .supportContent .tags .tag p {
+        font-size: 16px;
+    }
+
+
+    .supportWrapper .supportContent .assign {
+        margin-top: 1rem;
+        font-size: 14px;
+    }
+
+}
