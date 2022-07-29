@@ -1,6 +1,7 @@
 ## Fini Landing Page Redesign | Slingshot Verification Test
 
 Demo Site: <a href="https://fini-demo.web.app/" target="_blank">Link</a>
+<br/>
 Demo Video: <a href="https://www.youtube.com/watch?v=UmQYoY_Eimc&feature=youtu.be" target="_blank">Link</a>
 
 ### About the Project
