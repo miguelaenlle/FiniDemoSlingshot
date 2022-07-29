@@ -1,4 +1,4 @@
-###Getting Started
+### Getting Started
 <hr/>
 
 **Prerequisites**
@@ -27,7 +27,7 @@ npm install
 ```
 3. Run the site locally
 ``` 
-	npm start 
+npm start 
 ```
 
 
