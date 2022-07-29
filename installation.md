@@ -22,7 +22,7 @@ git clone https://github.com/miguelaenlle/FiniDemoSlingshot.git
 ```
 2. Install dependencies
 ```markdown
-cd fini-demo
+cd FiniDemoSlingshot
 npm install
 ```
 3. Run the site locally
