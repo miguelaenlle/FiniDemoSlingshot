@@ -9,7 +9,7 @@ const Testimonial: React.FC<{
 }> = (props) => {
     return (
         <div className={styles.testimonial}>
-            <img src={`/assets/clientLogos/${props.companyID}.png`} className={styles.logo} />
+            <img src={`/assets/clientLogos/${props.companyID}-min.png`} className={styles.logo} />
             <br />
             <p className={styles.text}>"{props.content}"</p>
 

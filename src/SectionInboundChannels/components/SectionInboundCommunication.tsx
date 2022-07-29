@@ -48,7 +48,7 @@ const SectionInboundCommunication: React.FC<{}> = (props) => {
                 className={styles.companyList}
             >
                 {COMPANY_NAMES.map((companyName, index) => {
-                    return <LogoItem key={`company-${index}`} itemName={companyName} />
+                    return <LogoItem key={`company-${index}`} itemName={`${companyName}-min`} />
 
                 })}
             </motion.div>
