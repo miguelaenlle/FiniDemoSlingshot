@@ -11,7 +11,7 @@ Demo Video: <a href="https://www.youtube.com/watch?v=UmQYoY_Eimc&feature=youtu.b
 
 - Fini is a startup that aggregates customer support tickets from various data sources (Intercom, Email, Zendesk, etc.), automates their tagging and moving, and provides an analytics dashboard with actionable insights.
 
-- Here is their current landing page: [https://usefini.com/](https://usefini.com/)
+- Here the actual, current landing page of Fini: [https://usefini.com/](https://usefini.com/) (not made by me)
 
 
 <br/>
