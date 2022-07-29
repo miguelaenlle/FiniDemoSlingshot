@@ -13,6 +13,9 @@ Demo Video: <a href="https://www.youtube.com/watch?v=UmQYoY_Eimc&feature=youtu.b
 
 - Here is their current landing page: [https://usefini.com/](https://usefini.com/)
 
+
+<br/>
+
 - I have redesigned their landing page here at https://fini-demo.web.app/. I also have created a demo video for the redesigned landing page here: https://youtu.be/UmQYoY_Eimc
 
 ### Built With
