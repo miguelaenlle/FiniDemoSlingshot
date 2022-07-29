@@ -30,7 +30,7 @@ Demo Video: <a href="https://www.youtube.com/watch?v=UmQYoY_Eimc&feature=youtu.b
 ### Getting started
 <hr/>
 
-See Installation.md
+See [Installation.md](https://github.com/miguelaenlle/FiniDemoSlingshot/blob/main/installation.md)
 
 ### Gallery
 <hr/>
