@@ -37,7 +37,7 @@ See Installation.md
 
 ![screenshot](https://raw.githubusercontent.com/miguelaenlle/FiniDemoSlingshot/main/imgs/1.PNG)
 
-![screenshot]https://raw.githubusercontent.com/miguelaenlle/FiniDemoSlingshot/main/imgs/2.PNG)
+![screenshot](https://raw.githubusercontent.com/miguelaenlle/FiniDemoSlingshot/main/imgs/2.PNG)
 
 ![screenshot](https://raw.githubusercontent.com/miguelaenlle/FiniDemoSlingshot/main/imgs/3.PNG)
     
