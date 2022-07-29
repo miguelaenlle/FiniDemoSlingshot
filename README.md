@@ -16,7 +16,7 @@ Demo Video: <a href="https://www.youtube.com/watch?v=UmQYoY_Eimc&feature=youtu.b
 
 <br/>
 
-- I have redesigned their landing page here at https://fini-demo.web.app/. I also have created a demo video for the redesigned landing page here: https://youtu.be/UmQYoY_Eimc
+- I have redesigned and developed their landing page here at https://fini-demo.web.app/ as a React site. I also have created a demo video for the redesigned landing page here: https://youtu.be/UmQYoY_Eimc
 
 ### Built With
 <hr/>
