@@ -14,7 +14,7 @@ Node.js 16 (versions below could work, but have not been tested)
     [https://nodejs.org/en/](https://nodejs.org/en/)
     
 
-Installation
+**Installation**
 
 1. Clone the repository
 ```markdown
